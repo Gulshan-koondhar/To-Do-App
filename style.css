@@ -97,3 +97,9 @@ ul li.click::before {
   position: absolute;
   background-color: #000;
 }
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 0px;
+    margin: 0px 20px;
+  }
+}
